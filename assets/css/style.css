@@ -49,9 +49,14 @@ a:hover {
   font-weight: 600;
   margin-right: 2rem;
 }
+
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
   .navbrand {
+    font-size: 18px;
+  }
+  .header-togglerbtn {
+    border: none;
     font-size: 18px;
   }
 }
