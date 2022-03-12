@@ -15,60 +15,62 @@ a:hover {
   cursor: pointer;
 }
 
-
 /* top header */
-.topheader{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+.topheader {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
-.topheaderpart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.topheaderpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.topheaderpart img{
-    height: 5rem;
+.topheaderpart img {
+  height: 5rem;
 }
 
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
-    .topheaderparttext{
-        display: none;
-    }
+  .topheaderparttext {
+    display: none;
+  }
 }
 
-.header-bottom{
-    background-color: #703C19;
-    font-size: 14px;
+/* bottom header with links */
+.header-bottom {
+  background-color: #703c19;
+  font-size: 14px;
 }
-.navbrand{
-    font-weight: 600;
-    margin-right: 2rem;
+.navbrand {
+  font-weight: 600;
+  margin-right: 2rem;
+}
+/* Smartphones ----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+  .navbrand {
+    font-size: 18px;
+  }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-device-width: 1025px) {
-    .headerlinks li{
-margin-right: 1rem;
-    }
+  .headerlinks li {
+    margin-right: 1rem;
+  }
 }
 
-
-
-
-
-
-
-
 /* Smartphones ----------- */
-@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {}
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+}
 
 /* iPads ----------- */
-@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
+}
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-device-width: 1025px) {}
+@media only screen and (min-device-width: 1025px) {
+}
