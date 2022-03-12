@@ -1,0 +1,74 @@
+/* css common for all */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+/* top header */
+.topheader{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.topheaderpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.topheaderpart img{
+    height: 5rem;
+}
+
+/* Smartphones ----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+    .topheaderparttext{
+        display: none;
+    }
+}
+
+.header-bottom{
+    background-color: #703C19;
+    font-size: 14px;
+}
+.navbrand{
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-device-width: 1025px) {
+    .headerlinks li{
+margin-right: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* Smartphones ----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {}
+
+/* iPads ----------- */
+@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-device-width: 1025px) {}
