@@ -15,7 +15,9 @@ a:hover {
   cursor: pointer;
 }
 
+/* ======================== */
 /* top header */
+/* ======================== */
 .topheader {
   display: flex;
   justify-content: space-evenly;
@@ -40,7 +42,9 @@ a:hover {
   }
 }
 
+/* ============================== */
 /* bottom header with links */
+/* ============================== */
 .header-bottom {
   background-color: #703c19;
   font-size: 14px;
@@ -68,6 +72,23 @@ a:hover {
   }
 }
 
+/* =========================================== */
+/* connect with your batchmates section */
+/* =========================================== */
+
+.connectsection {
+  padding: 2rem;
+  text-align: center;
+  background: url("pattern.png");
+ 
+}
+.connectsection .registerbtn {
+  background-color: #703c19;
+  color: white;
+  margin-top: 1.4rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
 }
