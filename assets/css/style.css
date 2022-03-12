@@ -80,7 +80,6 @@ a:hover {
   padding: 2rem;
   text-align: center;
   background: url("pattern.png");
- 
 }
 .connectsection .registerbtn {
   background-color: #703c19;
@@ -89,6 +88,16 @@ a:hover {
   padding-right: 2rem;
   padding-left: 2rem;
 }
+/* Smartphones ----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+.connectsection h2{
+    font-size: 18px;
+}
+.connectsection h5{
+    font-size: 14px;
+}
+}
+
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
 }
