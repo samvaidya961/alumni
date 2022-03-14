@@ -180,6 +180,7 @@ a:hover {
 }
 .loginregisterbtn {
   margin-top: 2rem;
+  text-align: center;
 }
 .loginregisterbtn button {
   width: 100%;
@@ -196,11 +197,91 @@ a:hover {
   font-size: 13px;
 }
 
+/* =================== */
+/* user profile page */
+/* =================== */
+/* .profpic{
+  display: flex;
+  justify-content: center;
+}
+.profinitials{
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.userprofilediv{
+  width: 96%;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.userprofileformsection{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px dotted lightgrey;
+}
+.userprofileformsection h6{
+  color: #703c19;
+  font-weight: 550;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/* =============================== */
+/* posts page */
+/* =============================== */
+
+.addpostbtn{
+  width: 96%;
+  margin: 2%;
+
+}
+.addpostbtn button{
+  border: 2px solid #703c19;
+  color: #703c19;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+.addpostbtn button:hover{
+  background-color: #703c19;
+  color: white;
+}
+
+.allpostsdiv{
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  margin: 1%;
+  justify-content: space-between;
+  
+}
+.singlepostcard{
+  width: 48%;
+  margin: 1%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: aqua;
+}
+
+/* Smartphones and ipad, tabs----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 1024px) {
+  .singlepostcard{
+    width: 98%;
+  }
+}
+
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
 }
 
-/* iPads ----------- */
+/* iPads, tabs ----------- */
 @media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
 }
 

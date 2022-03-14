@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ajax for photo gallery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>JNEC Alumni</title>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="topheader">
+            <div class="topheaderpart">
+                <img src="assets/images/mgm-u-logo.png" alt="">
+            </div>
+            <div class="topheaderpart topheaderparttext">
+                <h2 class="fw-bold">Jawaharlal Nehru Engineering College
+                    Alumni Association</h2>
+                <h5>N-6, CIDCO, Aurangabad, Maharashtra, India</h5>
+            </div>
+            <div class="topheaderpart">
+                <img src="assets/images/naac-A-grade.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <nav class="header-bottom navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand navbrand" href="index.html">JNEC Alumni</a>
+            <button class="navbar-toggler header-togglerbtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav headerlinks">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photogallery.html">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login / Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header ends -->
+
+
+
+    <!-- login form starts -->
+    <div class="loginregisterformouter">
+
+        <div class="userprofilediv">
+            <h4 class="mb-4 text-center">User Profile</h4>
+
+            <form action="">
+
+                <!-- <div class="mb-3">
+                    <div class="profpic">
+                        <div class="profinitials">
+                            <h1 class="mb-0">KP</h1>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="userprofileformsection">
+                    <h6>Personal Details</h6>
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">First Name :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Last Name :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Gender :</label>
+                            <select id="inputState" class="form-select form-select-sm">
+                                <option selected>Female</option>
+                                <option>Male</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">DOB :</label>
+                            <input type="date" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Email ID :</label>
+                            <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Contact Number :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">WhatsApp Number :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Postal Address :</label>
+                            <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Country :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">State :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="userprofileformsection">
+                    <h6>Other Details</h6>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Association with JNEC :</label>
+                            <select id="inputState" class="form-select form-select-sm">
+                                <option selected>Select</option>
+                                <option>Graduation</option>
+                                <option>Post Graduation</option>
+                                <option>Research Scholar</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Department :</label>
+                            <select id="inputState" class="form-select form-select-sm">
+                                <option selected>Select</option>
+                                <option>ARCHITECTURE</option>
+                                <option>CSE</option>
+                                <option>MECH</option>
+                                <option>PRODUCTION</option>
+                                <option>ENTC</option>
+                                <option>CHEM</option>
+                                <option>IE</option>
+                                <option>MCA</option>
+                                <option>IT</option>
+                                <option>CIVIL</option>
+                                <option>INSTRU</option>
+                                <option>BIO-TECH</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Passing Year :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Organization currently working with :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Working in Capacity :</label>
+                            <select id="inputState" class="form-select form-select-sm">
+                                <option selected>Select</option>
+                                <option>Employee</option>
+                                <option>Employer</option>
+                                <option>Entrepreneur</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label small">Area of Expertise :</label>
+                            <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="mb-3 loginregisterbtn">
+                    <button class="btn w-75">Update Profile Changes</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!-- login form ends -->
+
+
+
+    <script src="assets/js/main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
