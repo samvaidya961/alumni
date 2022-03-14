@@ -90,12 +90,109 @@ a:hover {
 }
 /* Smartphones ----------- */
 @media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
-.connectsection h2{
+  .connectsection h2 {
     font-size: 18px;
-}
-.connectsection h5{
+  }
+  .connectsection h5 {
     font-size: 14px;
+  }
 }
+
+/* ======================= */
+/* photo gallery options on home page */
+/* ======================= */
+
+.photogalleryoptionsdiv {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.photogalleryoption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 23%;
+
+  background-size: cover;
+  padding: 3rem 2rem;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 4%;
+}
+
+/* Smartphones ----------- */
+@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
+  .photogalleryoption {
+    padding: 2rem 1rem;
+    width: 48%;
+  }
+  .photogalleryoption h5 {
+    font-size: 14px;
+  }
+  .photogalleryoption h2 {
+    font-size: 1.3rem;
+  }
+}
+/* ======================= */
+/* photo gallery */
+/* ======================= */
+.portfolio-menu {
+  text-align: center;
+}
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item .item {
+  /*width:303px;*/
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* ================== */
+/* Login page */
+/* ================== */
+
+.loginregisterformouter {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.loginregisterform {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  width: 320px;
+  padding: 3rem 1.2rem;
+}
+.loginregisterbtn {
+  margin-top: 2rem;
+}
+.loginregisterbtn button {
+  width: 100%;
+  color: white;
+  background-color: #703c19;
+  font-size: 14px;
+}
+.loginorregisterlink{
+  text-align: center;
+}
+.loginorregisterlink a{
+  color: #703c19;
+  text-decoration: underline #703c19;
+  font-size: 13px;
 }
 
 /* Smartphones ----------- */
